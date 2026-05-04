@@ -1,4 +1,5 @@
-package de.thws.maven.lektion18;
+package de.thws.maven.lektion18.studiengangsplitter;
+
 import java.io.*;
 public class Studiengangsplitter {
 
