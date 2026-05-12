@@ -10,6 +10,6 @@ public enum Rank {
         this.rank = rank;
     }
     public int getRank(){
-        return rank;
+        return this.rank;
     }
 }

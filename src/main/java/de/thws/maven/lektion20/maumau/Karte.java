@@ -1,5 +1,7 @@
 package de.thws.maven.lektion20.maumau;
 
+import java.util.List;
+
 public class Karte implements Comparable<Karte>{
     private Rank rank;
     private Suit suit;
@@ -23,10 +25,10 @@ public class Karte implements Comparable<Karte>{
 
     @Override
     public int compareTo(Karte andereKarte) {
-        return Integer.compare(this.getRank(), andereKarte.getRank());
-    }
-
-    public boolean compareSymbol(Karte andereKarte){
-        return this.getSuit().equals(andereKarte.getSuit());
+        int rankVergleich = Integer.compare(this.getRank(), andereKarte.getRank());
+        if(rankVergleich != 0){
+            return rankVergleich;
+        }
+        return this.getSuit().compareTo(andereKarte.getSuit());
     }
 }

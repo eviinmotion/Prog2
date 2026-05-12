@@ -1,10 +1,11 @@
 package de.thws.maven.lektion20.maumau;
 
 public enum Suit {
-    HERZ("♥"),
-    KARO("♦"),
     KREUZ("♣"),
-    PIK("♠");
+    PIK("♠"),
+    HERZ("♥"),
+    KARO("♦");
+
 
     private final String symbol;
 

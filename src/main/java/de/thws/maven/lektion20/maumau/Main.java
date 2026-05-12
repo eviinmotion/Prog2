@@ -1,6 +1,7 @@
 package de.thws.maven.lektion20.maumau;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -18,6 +19,11 @@ public class Main {
         Spieler leon = new Spieler("Leon");
 
         skat.austeilen(leon.getHand());
-        leon.get
+
+        List<Karte> leonHand = leon.getHand().getHand();
+
+        Collections.sort(leonHand);
+        Collections.reverse(leonHand);
+        System.out.println("Leon hat folgendes der Hand: " + leonHand);
     }
 }
