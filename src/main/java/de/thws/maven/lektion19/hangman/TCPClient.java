@@ -1,6 +1,4 @@
-package de.thws.maven.lektion19;
-import de.thws.maven.lektion19.hangman.GameStatus;
-import de.thws.maven.lektion19.hangman.Guess;
+package de.thws.maven.lektion19.hangman;
 
 import java.io.*;
 import java.net.Socket;
