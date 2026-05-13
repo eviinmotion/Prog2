@@ -1,10 +1,10 @@
-package de.thws.maven.lektion20.maumau;
+package de.thws.maven.lektion20.maumau.kartenspiel;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Skat implements Kartenspiel{
+public class Skat implements Kartenspiel {
     List<Karte> skat = new ArrayList<>();
 
     public Skat(){

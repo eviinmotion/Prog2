@@ -1,6 +1,5 @@
-package de.thws.maven.lektion20.maumau;
+package de.thws.maven.lektion20.maumau.kartenspiel;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 

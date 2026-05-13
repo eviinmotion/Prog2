@@ -1,4 +1,4 @@
-package de.thws.maven.lektion20.maumau;
+package de.thws.maven.lektion20.maumau.kartenspiel;
 
 public class Spieler {
     private String name;
