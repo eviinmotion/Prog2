@@ -1,4 +1,4 @@
-package de.thws.maven.lektion20.maumau.dictionary;
+package de.thws.maven.lektion20.dictionary;
 
 import java.util.HashMap;
 import java.util.List;

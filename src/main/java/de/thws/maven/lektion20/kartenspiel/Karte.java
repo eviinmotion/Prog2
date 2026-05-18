@@ -1,4 +1,4 @@
-package de.thws.maven.lektion20.maumau.kartenspiel;
+package de.thws.maven.lektion20.kartenspiel;
 
 public class Karte implements Comparable<Karte>{
     private Rank rank;

@@ -1,4 +1,4 @@
-package de.thws.maven.lektion20.maumau.kartenspiel;
+package de.thws.maven.lektion20.kartenspiel;
 
 public enum Suit {
     KREUZ("♣"),

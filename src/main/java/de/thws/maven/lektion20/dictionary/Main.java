@@ -1,4 +1,4 @@
-package de.thws.maven.lektion20.maumau.dictionary;
+package de.thws.maven.lektion20.dictionary;
 
 public class Main {
     public static void main(String[] args) {
